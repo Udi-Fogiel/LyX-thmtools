@@ -2,7 +2,7 @@
 
 ## Use
 
-See `test_thmtools.lyx` and `testₜhmtools.pdf`.
+See `test_thmtools.lyx` and `test_thmtools.pdf`.
 
 ## License
 
