@@ -4,7 +4,7 @@
 #thmtools machinery. Both numbered and unnumbered types are provided. In Addition,
 #one can use the \listoftheorems command provided by the thmtools.sty package.
 #DescriptionEnd
-#Excludes: theorems-std | theorems-starred | theorems-ams | theorems-bytype |Theorems (AMS, Numbered by Type within Chapters) | Theorems (AMS, Numbered by Type) 
+#Excludes: theorems-std | theorems-ams | theorems-ams-bytype | theorems-bytype
 
 # Original Author : Udi Fogiel
 # Last Modified: 17.09
