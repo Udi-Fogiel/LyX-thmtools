@@ -623,23 +623,8 @@ List of Theorems
 \end_layout
 
 \begin_layout Standard
-To print a list of theorems, go to 
-\family sans
-Insert\SpecialChar menuseparator
-Custom
-\begin_inset space ~
-\end_inset
-
-Insets\SpecialChar menuseparator
-List
-\begin_inset space ~
-\end_inset
-
-Of
-\begin_inset space ~
-\end_inset
-
-Theorems.
+To print a list of theorems, add the List of Theorems layout from the bottom
+ of the Reasoning category in the layouts combo-box.
 \end_layout
 
 \begin_layout List of Theorems
