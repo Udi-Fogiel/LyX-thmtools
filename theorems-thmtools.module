@@ -717,7 +717,7 @@ Input theorems-proof.inc
 Style "List of Theorems"
 	Margin				Dynamic
 	LatexType			Command
-	LatexName			lyxlistoftheorems
+	LatexName			listoftheorems
 	Category              Reasoning
 	LabelString			"List of theorems"
 	KeepEmpty			1
@@ -730,7 +730,7 @@ Style "List of Theorems"
 	  LabelString		"keys"
 	  Tooltip			"Insert wanted keys here"
 	  PassThru		1
-	  Mandatory		1
+	  Mandatory		0
 	  AutoInsert	1
 	EndArgument
 	LabelFont
@@ -739,7 +739,8 @@ Style "List of Theorems"
 	EndFont
 	DependsOn		Theorem
 	Preamble
-		\def\lyxlistoftheorems#1{\listoftheorems[#1]\addtocontents{loe}{}}
+		\NewCommandCopy{\oldlistoftheorems}{\listoftheorems}
+		\renewcommand{\listoftheorems}[1][]{\oldlistoftheorems[#1]\addtocontents{loe}{}}
 	EndPreamble
 End
 
